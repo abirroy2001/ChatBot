@@ -14,7 +14,7 @@ nltk.download('wordnet')
 lemmatizer = WordNetLemmatizer()
 
 # Load intents file (ensure the correct path to your intents.json)
-intents_file_path = r'F:\E\Project\25centai\backend\intents.json'
+intents_file_path = r'F:\E\Project\ChatBot\backend\intents.json'
 
 with open(intents_file_path, 'r') as file:
     intents = json.load(file)

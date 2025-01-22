@@ -6,7 +6,7 @@ const App = () => {
         <div>
             <Chatbot />
         </div>
-    );
+     );
 };
 
 export default App;
